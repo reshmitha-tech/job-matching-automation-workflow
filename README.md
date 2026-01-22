@@ -32,5 +32,17 @@ notifications only for eligible jobs using n8n.
 3. Update sheet IDs and column names
 4. Execute the workflow
 
+  ## How to Run This Project
+
+1. Import the workflow JSON into n8n
+2. Configure Google Sheets and Gmail credentials
+3. Create Users and Jobs sheets as per structure
+4. Submit the form with sample data
+5. Eligible jobs will trigger email notifications
+
 ## Output
 Eligible users receive job notifications via email.
+
+## Security Note
+This project does not include any personal data, resumes, or API keys.
+All credentials are managed securely within n8n.
